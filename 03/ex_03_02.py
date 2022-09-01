@@ -2,7 +2,7 @@
 # pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above
 # 40 hours. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75)
 # input to read a string and float() to convert the string to a number
-# No need to saniztize user data
+# No need to sanitize user data
 
 # exercise 03_01
 hrs = input("Enter Hours: ")
