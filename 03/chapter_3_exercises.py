@@ -47,12 +47,13 @@ else:
 # < 0.6      F
 
 
-string_score = input('Enter score: ')
-print(score)
+score = float(input('Enter a score between 0.0 and 1.0: '))
 try:
-    score < 0.0 and 1.0
+    score < 0.0
+    score > 1.0
 except:
-    print('Bad score')
+     print('Error, score is out of range.')
+print(score)
 if score >= 0.9:
     print('A')
 elif score >= 0.8:
