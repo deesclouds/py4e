@@ -21,7 +21,7 @@ x is not y           # x is not the same as y
 
 A common error is using = instead of ==. 
 =                   # assignment operator
-==                  # comparison operator
+==                  # comparison operator (is this equal to)
 
 These two operators do not exist
 =< or =>
