@@ -83,4 +83,4 @@ except:
     istr = -1
 What will the value be for istr after this code executes?
 
-- 1
+- -1
