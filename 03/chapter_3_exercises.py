@@ -46,9 +46,11 @@ else:
 # >= 0.6     D
 # < 0.6      F
 
-try: 
-    score = input('Enter score: ')
-    score == float or score > 1.0 or score < 0.0
+
+string_score = input('Enter score: ')
+print(score)
+try:
+    score < 0.0 and 1.0
 except:
     print('Bad score')
 if score >= 0.9:
