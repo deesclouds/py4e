@@ -15,7 +15,7 @@ if  x == 5 :
     print('Is Still 5')
     print('Third 5')
 
- Depending on the value of x, either all three of the print statements will execute or none of the statements will execute.
+- Depending on the value of x, either all three of the print statements will execute or none of the statements will execute.
 
 4. When you have multiple lines in an if block, how do you indicate the end of the if block?
 
