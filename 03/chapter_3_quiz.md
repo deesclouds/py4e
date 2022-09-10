@@ -6,7 +6,7 @@
 
 2. Which of these operators is not a comparison / logical operator?
 
-= 
+- = 
 
 3. What is true about the following code segment:
 
