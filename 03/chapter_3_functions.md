@@ -18,7 +18,7 @@ The result is called the return value.
 
 ## Built-in function
 
-Python provides a number of important built0in functions we can use without providing the function definition. 
+Python provides a number of important built-in functions we can use without providing the function definition. 
 
 The max and min functions gives us the largest and smallest values within a list. 
 
