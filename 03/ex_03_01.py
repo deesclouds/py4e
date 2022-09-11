@@ -1,22 +1,18 @@
-# write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
-# pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above
-# 40 hours. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75)
-# input to read a string and float() to convert the string to a number
-# No need to saniztize user data
+# exercise 01
 
-# exercise 03_01
-hrs = input("Enter Hours: ")
-rate = input("Enter Rate: ")
-h = float(hrs)
-r = float(rate)
-# print(h, r)
-if h > 40 :
-    # print("Overtime Hours")
-    standard = r * h
-    overtime = (h - 40.0) * (r * 0.5)
-    # print(standard plus overtime)
-    gross_pay = standard + overtime
-else:
-    # print("Standard Hours")
-    gross_pay = h * r
-print("Pay:$" ,gross_pay)
+# Run the program on your system and see what numbers you get. Run the program more than once and see what numbers you get.
+
+import random
+
+# The random function is only one of the many functions that handle random numbers. The function randint takes the parameters low and high, and returns an integer between low and high (including both).
+
+random.randint(5, 10)
+
+random.randint(5, 10)
+
+# To choose an element from a sequence at random, we can use choice:
+
+t = [1, 2, 3]
+random.choice(t)
+
+
