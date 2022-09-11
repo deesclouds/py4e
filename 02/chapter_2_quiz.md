@@ -1,54 +1,86 @@
-# In the following code,
-print(98.6)
+# Chapter 3 Quiz
 
-What is "98.6"?
-- A constant
+1. What do we do to a Python statement that is immediately after an if statement to indicate that the statement is to be executed only when the if statement is true?
 
-# Which of the following is a comment in Python?
-# This is a test
+- Indent the line below the if statement
 
-# What does the following code print out?
-print("123" + "abc")
-123abc
+2. Which of these operators is not a comparison / logical operator?
 
-# In the following code, 
-x = 42
-What is "x"?
-- A variable
+- = 
 
-# Which of the following is a bad Python variable name?
-23spam
+3. What is true about the following code segment:
 
-# Which of the following variables is the "most mnemonic"?
-hours
+if  x == 5 :
+    print('Is 5')
+    print('Is Still 5')
+    print('Third 5')
 
-# Which of the following is not a Python reserved word?
-speed
+- Depending on the value of x, either all three of the print statements will execute or none of the statements will execute.
 
-# Which of the following is not a Python reserved word?
-iterate
+4. When you have multiple lines in an if block, how do you indicate the end of the if block?
 
-# Assume the variable x has been initalized to an integer value (e.g., x = 3). What does the following statement do?
+- You de-indent the next line past the if block to the same level of indent as the original if statement
 
-x = x + 2
-Retrieves the current value of x, add two to it and puts the sum back into x
+5. You look at the following text:
 
-# Which of the following elements of a mathematical expression in Python is evaluated first?
+if x == 6 :
+    print('Is 6')
+    print('Is Still 6')
+    print('Third 6')
+It looks perfect but Python is giving you an 'Indentation Error' on the second print statement. What is the most likely reason?
 
-Parentheses()
+ - You have mixed tabs and spaces in the file
 
-# What is the value of the following expression
-42 % 10
 
-2
+6. What is the Python reserved word that we use in two-way if tests to indicate the block of code that is to be executed if the logical test is false?
 
-# What will be the values of x after the following statement executes;
-x = 1 + 2 * 3 - 8 / 4
-5.0
+- else
 
-# What will be the value of x when the following statement is executed:
-x = int(98.6)
-98
+7. What will the following code print out?
 
-# What does the Python input() function do?
-Pauses the program and reads data from the user. 
+x = 0
+if x < 2 :
+    print('Small')
+elif x < 10 :
+    print('Medium')
+else :
+    print('LARGE')
+print('All done')
+
+- Small All done
+
+8. For the following code,
+
+if x < 2 :
+    print('Below 2')
+elif x >= 2 :
+     print('Two or more')
+else :
+    print('Something else')
+
+What value of 'x' will cause 'Something else' to print out?
+
+- This code will never print 'Something else' regardless of the value for 'x'
+  
+9.  In the following code (numbers added) - which will be the last line to execute successfully?
+
+(1)   astr = 'Hello Bob'
+(2)   istr = int(astr)
+(3)   print('First', istr)
+(4)   astr = '123'
+(5)   istr = int(astr)
+(6)   print('Second', istr)
+
+- 1
+  
+10. For the following code:
+
+astr = 'Hello Bob'
+istr = 0
+try:
+    istr = int(astr)
+except:
+    istr = -1
+What will the value be for istr after this code executes?
+
+- -1
